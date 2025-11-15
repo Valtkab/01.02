@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CreatePetResponseModel {
 
-    private int id;
+    private long id;
     private CategoryModel category;
     private String name;
     private List<String> photoUrls;

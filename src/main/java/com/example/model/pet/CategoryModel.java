@@ -7,6 +7,6 @@ import lombok.Setter;
 @Setter
 
 public class CategoryModel {
-    private int id;
+    private long id;
     private String name;
 }
