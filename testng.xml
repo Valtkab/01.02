@@ -1,0 +1,10 @@
+<suite name="PetStoreSuite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="PetTests">
+        <classes>
+            <class name="com.example.PetTest"/>
+        </classes>
+    </test>
+</suite>
